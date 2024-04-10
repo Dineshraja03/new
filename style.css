@@ -1,0 +1,264 @@
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: rgb(0, 0, 0); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+   
+*{
+    font-family:system-ui;
+    text-decoration: none;
+    
+}
+.navbar{
+    background-color: black;
+    padding-left: 30px; padding-right: 30px;
+    border-bottom: 5px;
+    border-color: white;
+    border-style: solid;
+   
+}
+.logo{
+    display: flex; align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: xx-large; font-weight: 600;
+    color: white;
+}
+li{
+    list-style: none;
+    display:inline-block ;
+    padding: 10px;
+}
+.dp{
+    border-radius: 50%;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 40px;
+    margin-bottom: 10px;;
+}
+.dp_back{
+    background-clip:url(videos/bgvid.mp4);
+    margin-left: 20px;
+    margin-right: 20px;
+    animation-name: dp;
+    animation-duration: 5s;
+}
+
+.p1 .p2 {
+    color: black;
+    ;
+    
+}
+.p1 span{
+    animation: fadeIn 5s;
+    color: #ed004f;
+}
+
+.p1 span2{
+    animation: fadeIn 5s;
+    color: rgb(162, 0, 255);
+}
+
+.block3{
+    text-align: center;
+    color:black;
+}
+
+.skills{
+    display: flex;
+    text-align: center;
+    font-size: xxx-small;   
+}
+
+.skill{
+    font-size:20px ;
+}
+
+.list{
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 20px;
+}
+
+
+.b1{
+    border-radius: 10px ;
+    font-family: helvetica;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 4px;
+}
+
+.p2{
+    text-align: center;
+    color: #400bee;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+
+}
+
+.p1{
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+}
+
+.block1{
+    background-image: url(images/bg1.jpg);
+}
+
+.resume{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+    text-align: center;
+}
+
+.resb{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+.list:hover{
+    animation: fadeIn 2s;   
+    
+#html
+{
+    background-color: rgba(255, 0, 0, 0.656);
+    color: white;
+    font-weight: 900;
+}
+
+#css{
+    background-color: rgba(127, 255, 212, 0.867);
+    color: black;
+    font-weight: 900;
+}
+
+#js{
+    background-color: rgba(246, 255, 0, 0.749);
+    color: black;
+    font-weight: 900;
+}
+
+#uiux{
+    background-color: rgba(99, 0, 204, 0.763);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+#Python{
+    background-color: rgba(0, 56, 199, 0.734);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+#Git{
+    background-color: rgba(0, 0, 0, 0.758);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+#cs{
+    background-color: rgba(255, 0, 0, 0.797);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+#edit{
+    background-color: rgba(255, 94, 0, 0.741);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+#gd{
+    background-color: rgba(119, 255, 0, 0.715);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+}
+
+.resume2{
+    display: flex;
+}
+
+.docgif{
+    padding-left: 100px;
+}
+
+.pro{
+    text-align: center;
+
+}
+
+.projects1{
+    display: flex;
+    
+}
+.pr1{
+    margin-left: 2%;
+    margin-top: 80px;
+    padding: 50px;
+}
+.primg1{
+    padding: 50px;
+    margin-right: 50px;
+}
+.projects{
+    display: flex;
+}
+.pr2{
+    margin-left: 2%;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.primg2{
+    padding: 50px;
+    margin-left: 50px;
+
+}
+.c1{
+    height: 200px;
+    width: 350px;
+    border-color: black;
+    border-radius: 5px;
+}
+.cerimg{
+   text-align: center;
+}
+
+.certi{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    font-weight: 900;
+}
