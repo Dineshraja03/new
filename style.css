@@ -18,7 +18,8 @@
    
 *{
     font-family:system-ui;
-    text-decoration: none;
+    
+
     
 }
 .navbar{
@@ -29,12 +30,15 @@
     border-bottom: 5px;
     border-color: white;
     border-style: solid;
-   
+    position: fixed;
+  top: 0;
+  width: 95%; 
 }
 
 .logo{
     display: flex; align-items: center;
     justify-content: space-between;
+
 }
 
 #logo{
@@ -60,16 +64,22 @@ li{
     font: size 10px;
     font-weight: 600;
 }
+
 .navtext{
-    li:hover
-    {
-    
-        background-color: #00eeff;
-        color: white;
+    a{
+        color: black;
     }
 }
 
+#hd:hover{
+    color: white;
+}
 
+.navtext:hover{
+    li:hover{
+        background-color: rgb(132, 0, 255) ;
+    }
+}
 
 
 .dp{
@@ -157,6 +167,7 @@ li{
 }
 
 .block1{
+    margin-top: 90px;
     background-image: url(images/bg1.jpg);
 }
 
@@ -273,9 +284,10 @@ li{
     margin-left: 50px;
 
 }
+
 .c1{
     height: 100px;
-    width: 180px;
+    width: 170px;
     border-color: black;
     border-radius: 5px;
 }
@@ -284,7 +296,7 @@ li{
 }
 
 .certi{
-    text-align: center;
+    text-align: center;;
     li{
         border-radius: 5px;
         border-style: solid;
@@ -301,8 +313,6 @@ li{
 }
 
 
-
-
 #ilo{
     padding: 50px;
 
@@ -312,4 +322,10 @@ li{
     transform: scale(1.5);
     animation: fadeIn 1.5s;
   
+}
+.footer{
+    text-align: center;
+    padding: 5px;
+
+
 }
