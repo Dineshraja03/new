@@ -14,6 +14,7 @@
     100% { opacity: 1; }
   }
 
+
    
 *{
     font-family:system-ui;
@@ -273,8 +274,8 @@ li{
 
 }
 .c1{
-    height: 200px;
-    width: 350px;
+    height: 100px;
+    width: 180px;
     border-color: black;
     border-radius: 5px;
 }
@@ -292,4 +293,23 @@ li{
 }
 .contact{
     text-align: center;
+}
+
+.contlogo{
+    display:flex ;
+    justify-content: center;
+}
+
+
+
+
+#ilo{
+    padding: 50px;
+
+}
+
+#ilo:hover{
+    transform: scale(1.5);
+    animation: fadeIn 1.5s;
+  
 }
