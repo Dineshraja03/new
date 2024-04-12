@@ -13,9 +13,7 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-
-
-   
+  
 *{
     font-family:system-ui;
     
@@ -23,16 +21,13 @@
     
 }
 .navbar{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     display: block;
-    margin: auto;
-    padding-left: 30px; padding-right: 80px;
-    border-bottom: 5px;
-    border-color: white;
-    border-style: solid;
+    padding-left: 30px; 
+    padding-right: 80px;
     position: fixed;
-  top: 0;
-  width: 95%; 
+    top: 0;
+    width: 96%; 
 }
 
 .logo{
@@ -77,7 +72,7 @@ li{
 
 .navtext:hover{
     li:hover{
-        background-color: rgb(132, 0, 255) ;
+        background-color: rgb(161, 104, 253) ;
     }
 }
 
@@ -88,14 +83,17 @@ li{
     border-style:double;
     border-width: 8px;
     margin-top: 40px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    
 }
 .dp_back{
     background-clip:url(videos/bgvid.mp4);
     margin-left: 20px;
     margin-right: 20px;
     animation-name: dp;
-    animation-duration: 5s;
+    animation-duration: 5s; 
+    text-align: center;
+
 }
 
 .p1 .p2 {
