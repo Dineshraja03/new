@@ -379,6 +379,8 @@ margin-bottom: 50px;
   
 }
 .footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     padding: 5px;
 }
@@ -386,4 +388,5 @@ margin-bottom: 50px;
 html{
     scroll-behavior: smooth;
 }
+
 
