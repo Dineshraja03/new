@@ -88,7 +88,7 @@ li{
   margin-left: 200px;
   h1{
     font-size: 200px;
-    text-shadow: rgb(255, 255, 255) 1px 1px 10px;
+    text-shadow: rgb(220, 220, 220) 1px 1px 10px;
     color: #2a2a2a;
 }
 }
@@ -180,6 +180,9 @@ li{
     color:black;
 }
 
+.sk{
+    background-color: rgb(255, 255, 255);
+}
 .skills{
     display: flex;
     text-align: center;
@@ -191,10 +194,12 @@ li{
     font-size:20px ;
     text-align: center;
     text-decoration: underline 5px;
+    color: rgb(0, 0, 0);
 }
 
 .list{
-    padding-left: 180px;
+ 
+   padding-left: 180px;
     padding-right: 180px;
     margin-top: 90px;
     :hover{transform: scale(1.1);}
@@ -298,23 +303,30 @@ li{
     padding-left: 100px;
 }
 
+#projects{
+    background-color: rgba(32, 40, 51, 1);
+}
+
 .pro{
     padding-top:100px ;
     text-align: center;
     font-size: 30px;
     padding-bottom: 30px;
     text-decoration: underline 5px;
+    color: aqua;
 
 }
 
 .projects1{
     display: flex;
     
+    
 }
 .pr1{
     margin-left: 2%;
     margin-top: 80px;
     padding: 50px;
+    color: rgba(197, 198, 200, 1);
 }
 .primg1{
     padding: 50px;
@@ -323,12 +335,13 @@ li{
 .projects{
    
     display: flex;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(0, 0, 0);
 }
 .pr2{
     margin-left: 2%;
     margin-top: 80px;
     padding: 50px;
+    color: rgba(197, 198, 200, 1);
 }
 
 .primg2{
@@ -340,6 +353,7 @@ li{
 .certificate{
 margin-top: 50px;
 margin-bottom: 50px;
+
 }
 
 .c1{
@@ -372,11 +386,12 @@ margin-bottom: 50px;
 
 }
 .contact{
+    color: aqua;
     text-align: center;
-    margin-top: 50px;
-    margin: rgb(237,237,237);
+    padding: 40px;
+    margin: rgb(131, 131, 131);
     text-decoration: underline 5px;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(121, 131, 146)
 }
 
 .contlogo{
@@ -384,7 +399,7 @@ margin-bottom: 50px;
     justify-content: center;
 }
 .con{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(121, 131, 146)
 }
 
 #ilo{
