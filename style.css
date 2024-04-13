@@ -6,12 +6,13 @@
 *{
     font-family:system-ui;
     margin: 0%;
+    text-decoration:none;
 
     
 }
 .navbar{
   
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
     display: block;
     padding-left: 30px; 
     padding-right: 80px;
@@ -55,17 +56,19 @@ li{
 
 .navtext{
     a{
-        color: black;
+        color: rgb(186, 186, 186);
     }
 }
 
 #hd:hover{
-    color: white;
+    color: rgba(102, 252, 241, 1);
+   
 }
 
 .navtext:hover{
     li:hover{
         background-color: rgb(108, 108, 108) ;
+        box-shadow: white 1px 1px 5px;
     }
 }
 
@@ -82,10 +85,10 @@ li{
 .dp_back{
   font-family: NeueRoman;
   padding-top: 10px;
-  margin-left: 400px;
+  margin-left: 200px;
   h1{
     font-size: 200px;
-    text-shadow: rgb(130, 130, 130) 10px 10px 20px;
+    text-shadow: rgb(255, 255, 255) 1px 1px 10px;
     color: #2a2a2a;
 }
 }
@@ -95,19 +98,24 @@ li{
 }
 
 .block1{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex; 
     align-items: center;  
+    background-color: rgb(0, 0, 0);
 }
+
 #text{
     animation: fadeIn 4s;
+    color: rgba(102, 252, 241, 1);
+    line-height: 190px;
     
 }
 
 .about1{
     padding-top: 100px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color:rgba(32, 40, 51, 1);
     h1{
         font-size: 40px;
         text-decoration: underline 5px;
@@ -121,6 +129,7 @@ li{
 
 #about{
     text-align: center;
+    color: aqua;
 }
 
 .dp2{
@@ -152,11 +161,12 @@ li{
     padding-top: 20px;
     padding-left: 40px;
     text-align: center;
-    color: #400bee;
+    color: #ffffff;
     animation: fadeIn 5s;
 }
 
 .p1{
+    color: white;
     font-family: NeueRoman;
     margin-top: 90px;
     margin-left: 150px;
@@ -187,6 +197,7 @@ li{
     padding-left: 180px;
     padding-right: 180px;
     margin-top: 90px;
+    :hover{transform: scale(1.1);}
 }
 
 .gif1{
@@ -222,8 +233,8 @@ li{
     font-size: 20px;
 }
 
-.list:hover{
-    animation: fadeIn 2s;   
+.list li:hover{
+    animation: fadeIn 1s;   
     
 #html
 {
@@ -312,6 +323,7 @@ li{
 .projects{
    
     display: flex;
+    background-color: rgb(233, 233, 233);
 }
 .pr2{
     margin-left: 2%;
@@ -335,7 +347,10 @@ margin-bottom: 50px;
     width: 170px;
     border-color: black;
     border-radius: 5px;
-}
+    }
+.c1:hover{
+        transform: scale(1);
+    }
 .cerimg{
    text-align: center;
    margin-bottom: 50px;
@@ -359,14 +374,18 @@ margin-bottom: 50px;
 .contact{
     text-align: center;
     margin-top: 50px;
+    margin: rgb(237,237,237);
     text-decoration: underline 5px;
+    background-color: rgb(237, 237, 237);
 }
 
 .contlogo{
     display:flex ;
     justify-content: center;
 }
-
+.con{
+    background-color: rgb(236, 236, 236);
+}
 
 #ilo{
     padding: 50px;
