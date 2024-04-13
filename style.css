@@ -317,6 +317,10 @@ li{
 
 }
 
+.ph1{
+    text-align: center;
+}
+
 .projects1{
     display: flex;
     
@@ -413,10 +417,11 @@ margin-bottom: 50px;
   
 }
 .footer{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    padding: 5px;
+    
+    background-color: #e6e6e6;
 }
 
 html{
