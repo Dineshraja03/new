@@ -27,7 +27,8 @@
 .logo{
     display: flex; align-items: center;
     justify-content: space-between;
-
+    
+   
 }
 
 #logo{
@@ -39,7 +40,11 @@
     padding-top: 4px;
     padding-bottom: 7px;
     border-radius: 10px ;
+    #logo:hover{
+        color: white;
+    }
 }
+
 li{
     list-style: none;
     display:inline-block;
