@@ -3,6 +3,10 @@
     100% { opacity: 1; }
   }
   
+  html{
+    scroll-behavior: smooth;
+}
+
 *{
     font-family:system-ui;
     margin: 0%;
@@ -429,8 +433,6 @@ margin-bottom: 50px;
     background-color: #e6e6e6;
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 
 
