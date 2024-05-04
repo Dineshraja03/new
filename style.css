@@ -149,6 +149,13 @@ li{
     margin-left: 230px;
 }
   
+#aboutgrey{
+    filter: grayscale();
+}
+
+#aboutgrey:hover{
+    filter: none;
+}
 
 .p1 .p2 {
     margin-top: 50px;
@@ -170,8 +177,17 @@ li{
     padding-top: 20px;
     padding-left: 40px;
     text-align: center;
-    color: #ffffff;
+    color: #ffffffc4;
     animation: fadeIn 5s;
+    span1{
+        color: violet;
+    }
+    span2{
+        color: rgb(0, 247, 255);
+    }
+    span3{
+        color: yellow;
+    }
 }
 
 .p1{
