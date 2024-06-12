@@ -224,8 +224,8 @@ li{
 
 .list{
  
-   padding-left: 180px;
-    padding-right: 180px;
+   padding-left: 90px;
+    padding-right: 150px;
     margin-top: 90px;
     :hover{transform: scale(1.1);}
 }
@@ -297,6 +297,12 @@ li{
     font-weight: 900;
 }
 
+#java{
+    background-color: rgba(240, 120, 0, 0.734);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
 #Git{
     background-color: rgba(0, 0, 0, 0.758);
     color: rgb(255, 255, 255);
@@ -310,7 +316,7 @@ li{
 }
 
 #edit{
-    background-color: rgba(255, 94, 0, 0.741);
+    background-color: rgba(255, 0, 136, 0.741);
     color: rgb(255, 255, 255);
     font-weight: 900;
 }
@@ -332,11 +338,12 @@ li{
     background-color: rgba(32, 40, 51, 1);
 }
 
+
 .pro{
-    padding-top:100px ;
+    padding-top:70px ;
     text-align: center;
     font-size: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     text-decoration: underline 5px;
     color: aqua;
 
@@ -348,6 +355,10 @@ li{
 
 .projects1{
     display: flex;
+    span4{
+        color:aqua;
+        font-size:x-large;
+    }
     
     
 }
@@ -360,24 +371,39 @@ li{
 .primg1{
     padding: 50px;
     margin-right: 50px;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
 }
 .projects{
    
     display: flex;
     background-color: rgb(0, 0, 0);
+    span4{
+        color:aqua;
+        font-size:x-large;
+    }
+
 }
 .pr2{
     margin-left: 2%;
     margin-top: 80px;
     padding: 50px;
     color: rgba(197, 198, 200, 1);
+    
+    
 }
 
 .primg2{
     padding: 50px;
     margin-left: 50px;
-
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
 }
+
 
 .certificate{
 margin-top: 50px;
